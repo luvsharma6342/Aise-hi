@@ -59,7 +59,7 @@ function App() {
             </button>
             <button
               onClick={moveButton}
-              className={`text-white bg-green-600 px-5 py-1 rounded-md translate-x-0 ${translateLeft} ${translateRight} ${
+              className={`text-white bg-green-600 px-5 py-1 rounded-md translate-x-0 transition-all duration-700 ${translateLeft} ${translateRight} ${
                 count === 5 ? "hidden" : "inline"
               }`}
             >
